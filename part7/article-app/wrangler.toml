@@ -1,0 +1,12 @@
+name = "article-app"
+main = "src/index.ts"
+compatibility_date = "2023-03-12"
+
+[[ queues.producers ]]
+binding = "QUEUE"
+queue = "article-queue"
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "article-db"
+database_id = "xxxxxxxxxxxxxxx"

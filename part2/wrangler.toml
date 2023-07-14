@@ -1,0 +1,6 @@
+name = "article-app"
+main = "src/index.ts"
+compatibility_date = "2023-03-12"
+kv_namespaces = [
+    { binding = "article", id = "1234567890", preview_id = "abcdefghijklmn" }
+]
